@@ -1,0 +1,7 @@
+body, html
+{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font:600 16px/18px 'Verdana',sans-serif;
+}

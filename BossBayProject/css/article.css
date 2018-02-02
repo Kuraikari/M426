@@ -1,0 +1,125 @@
+.articlePage
+{
+  margin: 300px 200px;
+
+  height: 2000px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.articleImage
+{
+  padding-top: 50px;
+}
+
+.articleImg
+{
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+
+.articleContent
+{
+
+}
+
+.articleValue
+{
+
+}
+
+.articleValue h1
+{
+  text-align: left;
+  margin-top: 50px;
+}
+
+.articleValue h3
+{
+  text-align: left;
+
+}
+
+#addCartBtn
+{
+    margin-right: 0px;
+    height: 30px;
+    width: 200px;
+    padding: 5px 0px;
+    color: #02547d;
+    font-size:14px;
+}
+
+.writeSection
+{
+
+    padding-top: 100px;
+    margin: 0px 100px;
+}
+
+.commentsSection
+{
+
+    margin: 0px 100px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.comments
+{
+    margin-right: 50px;
+    float: right;
+}
+
+.writeComment
+{
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+.inputCommentary
+{
+    width: 100%;
+    height: 200px;
+}
+
+.submitButtonCommentary
+{
+    background: #0284a8;
+    border: 2px solid #02547d;
+    margin-right: 0px;
+    float: right;
+    height: 30px;
+    width: 100px;
+    padding: 5px 20px;
+    color: #FFF ;
+    font-size:14px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.submitButtonCommentary:hover
+{
+    font-size:15px;
+    color: #02547d ;
+    background: #FFF;
+}
+
+.commentsSectionCommentary
+{
+    border-top-style: solid;
+    border-top-color: black;
+    font-size:12px;
+}
+.commentTitle
+{
+    font-size:16px;
+}
+
+.commentSectionTitle
+{
+    font-size:12px;
+}

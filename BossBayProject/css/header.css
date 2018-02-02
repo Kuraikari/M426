@@ -1,0 +1,226 @@
+
+
+a:hover
+{
+	color: #fff;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header
+{
+
+	padding-top: 50px;
+	font-family: "Verdana", sans-serif;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+  	border-bottom:solid 0.1em #f4f4f4;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: height 0.3s;
+}
+
+header h1#logo
+{
+	/*display: inline-block;*/
+
+   	/*padding:0 1em;*/
+
+
+	font-size: 60px;
+	color: #fcfcfc;
+	font-weight: 300;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+header nav
+{
+	/*margin-top:50px;*/
+	/*display: inline-block;*/
+	/*float: right;*/
+	/*margin-right: 200px;*/
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+header nav a
+{
+	margin-left: 20px;
+	color: rgba(255,255,255,0.5);
+
+	font-size: 17px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(0,0,0,1);
+}
+
+header nav a:hover
+{
+	/*font-size: 16px;*/
+	/*color:  #0284a8;*/
+}
+
+.userLabel
+{
+	color: white;
+}
+
+.userImage
+{
+	margin-left: 500px;
+	border-radius: 50%;
+}
+
+header.smaller
+{
+	height: 100px;
+	padding-top: 10px;
+
+	z-index: 999;
+  	border-bottom:solid 0.1em #f4f4f4;
+	background-color: rgba(10, 16, 19, 1);
+	transition: height 0.3s;
+}
+
+header.smaller h1#logo
+{
+	/*text-shadow: 0.1em 0.03em #02547d;*/
+
+	font-size: 40px;
+}
+
+header.smaller nav
+{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.effectHeader a::before
+{
+	font-weight: 900;
+	position: absolute;
+	overflow: hidden;
+	max-width: 0;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 10px;
+	color: #fff;
+	content: attr(data-hover);
+	-webkit-transition: max-width 5s;
+	-moz-transition: max-width 5s;
+	transition: max-width 5s;
+}
+
+.effectHeader a:hover::before,
+.effectHeader a:focus::before
+{
+	max-width: 100%;
+}
+
+.active
+{
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+@media all and (max-width: 940px)
+{
+	header h1#logo
+	{
+		background-color: #333333;
+		display: block;
+		float: none;
+		margin: 0 auto;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+	}
+	header nav
+	{
+		background-color: #333333;
+		display: block;
+		float: none;
+		height: 50px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	header nav a
+	{
+		line-height: 50px;
+		margin: 0 10px;
+	}
+	header.smaller
+	{
+		background-color: #202020;
+		height: 75px;
+	}
+	header.smaller h1#logo
+	{
+		margin-left: 10px;
+		background-color: #202020;
+		height: 40px;
+		line-height: 40px;
+		font-size: 30px;
+	}
+	header.smaller nav
+	{
+		background-color: #202020;
+		margin-top: 0px;
+		height: 50px;
+	}
+	header.smaller nav a
+	{
+
+	}
+	.clearfix:after
+	{
+		visibility: hidden;
+		display: block;
+		content: "";
+		clear: both;
+		height: 0;
+	}
+}
+
+.navLeft
+{
+	margin-left: 30%;
+	display: inline-block;
+}
+
+.navRight
+{
+	display: inline-block;
+}
+
+.navMiddle
+{
+	margin-left: 40px;
+	margin-right: 10px;
+	display: inline-block;
+}
